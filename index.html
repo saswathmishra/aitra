@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Resource Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🗺️ Travel Resource Manager</h1>
+            <p>Organize your travel resources efficiently</p>
+        </header>
+
+        <main>
+            <!-- Add Resource Form -->
+            <section class="add-resource-section">
+                <h2>Add New Resource</h2>
+                <form id="resourceForm" class="resource-form">
+                    <div class="form-group">
+                        <label for="title">Title *</label>
+                        <input type="text" id="title" name="title" required placeholder="Enter resource title">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="url">URL *</label>
+                        <input type="url" id="url" name="url" required placeholder="https://example.com">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="startDate">Valid From *</label>
+                            <input type="date" id="startDate" name="startDate" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="endDate">Valid Until *</label>
+                            <input type="date" id="endDate" name="endDate" required>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Add Resource</button>
+                </form>
+            </section>
+
+            <!-- Resources Display -->
+            <section class="resources-section">
+                <div class="section-header">
+                    <h2>Your Resources</h2>
+                    <div class="filter-info">
+                        <span id="filterStatus">Showing resources from earliest date until today</span>
+                    </div>
+                </div>
+                
+                <div id="resourcesList" class="resources-list">
+                    <!-- Resources will be dynamically added here -->
+                </div>
+                
+                <div id="emptyState" class="empty-state">
+                    <div class="empty-icon">📋</div>
+                    <h3>No resources yet</h3>
+                    <p>Add your first travel resource to get started!</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,275 @@
+{
+  "trip": {
+    "title": "Thailand Adventure",
+    "destination": "Thailand",
+    "departure": "Bhubaneswar",
+    "startDate": "2025-09-29",
+    "endDate": "2025-10-07",
+    "totalDays": 9
+  },
+  "itinerary": [
+    {
+      "date": "2025-09-29",
+      "day": 1,
+      "location": "Bhubaneswar → Thailand",
+      "type": "travel",
+      "activities": [
+        {
+          "time": "21:45",
+          "title": "Baggage Check-in Closes",
+          "description": "Flight 6E 1065 - Bhubaneswar to Thailand",
+          "location": "Bhubaneswar Airport",
+          "type": "flight",
+          "details": {
+            "flightNumber": "6E 1065",
+            "departure": "23:00",
+            "arrival": "03:15 AM (next day)",
+            "seats": "11-A,B,C,D,E,F",
+            "pnr": "P8933N",
+            "baggageClose": "21:45"
+          },
+          "links": [
+            {
+              "title": "Flight Tickets",
+              "url": "https://drive.google.com/drive/u/0/folders/1P5Fm8HsFFMAmCdAMbQA5zK_3GjfZfceR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-30",
+      "day": 2,
+      "location": "Pattaya",
+      "type": "accommodation",
+      "activities": [
+        {
+          "time": "Check-in",
+          "title": "Hotel Check-in",
+          "description": "Arrive in Thailand and check into Pattaya hotel",
+          "location": "Pattaya",
+          "type": "hotel",
+          "details": {
+            "checkIn": "2025-09-30",
+            "checkOut": "2025-10-03",
+            "duration": "3 nights"
+          },
+          "links": [
+            {
+              "title": "Hotel Booking",
+              "url": "https://www.airbnb.co.in/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMR2DJA2RN"
+            }
+          ]
+        },
+        {
+          "time": "Morning",
+          "title": "Thailand Digital Arrival Card",
+          "description": "Complete digital arrival card for Thailand entry",
+          "location": "Online",
+          "type": "document",
+          "links": [
+            {
+              "title": "Digital Arrival Card",
+              "url": "https://drive.google.com/drive/u/0/folders/1vKKc6Vy0RSsw9WaqCLC8Ok5sRzBKK1JB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-01",
+      "day": 3,
+      "location": "Pattaya",
+      "type": "exploration",
+      "activities": [
+        {
+          "time": "Full Day",
+          "title": "Explore Pattaya",
+          "description": "Discover Pattaya's beaches, temples, and local attractions",
+          "location": "Pattaya",
+          "type": "activity"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-02",
+      "day": 4,
+      "location": "Pattaya",
+      "type": "exploration",
+      "activities": [
+        {
+          "time": "Full Day",
+          "title": "Pattaya Adventures",
+          "description": "Continue exploring Pattaya and nearby attractions",
+          "location": "Pattaya",
+          "type": "activity"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-03",
+      "day": 5,
+      "location": "Pattaya → Phuket",
+      "type": "travel",
+      "activities": [
+        {
+          "time": "Check-out",
+          "title": "Hotel Check-out",
+          "description": "Check out from Pattaya hotel",
+          "location": "Pattaya",
+          "type": "hotel"
+        },
+        {
+          "time": "Travel",
+          "title": "Travel to Phuket",
+          "description": "Transfer from Pattaya to Phuket",
+          "location": "Pattaya → Phuket",
+          "type": "travel"
+        },
+        {
+          "time": "Check-in",
+          "title": "Hotel Check-in Phuket",
+          "description": "Check into Phuket hotel",
+          "location": "Phuket",
+          "type": "hotel",
+          "details": {
+            "checkIn": "2025-10-03",
+            "checkOut": "2025-10-05",
+            "duration": "2 nights"
+          },
+          "links": [
+            {
+              "title": "Phuket Hotel Booking",
+              "url": "https://www.airbnb.co.in/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMSR9D9SX8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-04",
+      "day": 6,
+      "location": "Phuket",
+      "type": "exploration",
+      "activities": [
+        {
+          "time": "Full Day",
+          "title": "Explore Phuket",
+          "description": "Discover Phuket's beautiful beaches and island attractions",
+          "location": "Phuket",
+          "type": "activity"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-05",
+      "day": 7,
+      "location": "Phuket",
+      "type": "travel",
+      "activities": [
+        {
+          "time": "Check-out",
+          "title": "Hotel Check-out",
+          "description": "Check out from first Phuket hotel",
+          "location": "Phuket",
+          "type": "hotel"
+        },
+        {
+          "time": "Check-in",
+          "title": "Hotel Check-in Phuket (2nd)",
+          "description": "Check into second Phuket hotel",
+          "location": "Phuket",
+          "type": "hotel",
+          "details": {
+            "checkIn": "2025-10-05",
+            "checkOut": "2025-10-06",
+            "duration": "1 night"
+          },
+          "links": [
+            {
+              "title": "Phuket Hotel Booking (2nd)",
+              "url": "https://www.airbnb.co.in/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMATNQC4CA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-06",
+      "day": 8,
+      "location": "Phuket → Bangkok",
+      "type": "travel",
+      "activities": [
+        {
+          "time": "Check-out",
+          "title": "Hotel Check-out",
+          "description": "Check out from Phuket hotel",
+          "location": "Phuket",
+          "type": "hotel"
+        },
+        {
+          "time": "Travel",
+          "title": "Travel to Bangkok",
+          "description": "Transfer from Phuket to Bangkok",
+          "location": "Phuket → Bangkok",
+          "type": "travel"
+        },
+        {
+          "time": "Check-in",
+          "title": "Hotel Check-in Bangkok",
+          "description": "Check into Bangkok hotel",
+          "location": "Bangkok",
+          "type": "hotel",
+          "details": {
+            "checkIn": "2025-10-06",
+            "checkOut": "2025-10-07",
+            "duration": "1 night"
+          },
+          "links": [
+            {
+              "title": "Bangkok Hotel Booking",
+              "url": "https://www.airbnb.co.in/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMSAW8EWN2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-07",
+      "day": 9,
+      "location": "Bangkok → Bhubaneswar",
+      "type": "travel",
+      "activities": [
+        {
+          "time": "Check-out",
+          "title": "Hotel Check-out",
+          "description": "Check out from Bangkok hotel",
+          "location": "Bangkok",
+          "type": "hotel"
+        },
+        {
+          "time": "21:45",
+          "title": "Baggage Check-in Closes",
+          "description": "Flight 6E 1066 - Thailand to Bhubaneswar",
+          "location": "Bangkok Airport",
+          "type": "flight",
+          "details": {
+            "flightNumber": "6E 1066",
+            "departure": "04:15",
+            "arrival": "03:15 AM (next day)",
+            "seats": "11-A,B,C,D,E,F",
+            "pnr": "W5HUYM",
+            "baggageClose": "21:45"
+          },
+          "links": [
+            {
+              "title": "Flight Tickets",
+              "url": "https://drive.google.com/drive/u/0/folders/128gaSRdiPwGQGD5EBDI51vbcw0U634PU"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
